@@ -1,0 +1,5 @@
+# 运行爬虫示例 crawl.py 的要求，要求 Python 3.8+
+# asyncio 模块在标准库中，但是示例代码还需要 aiphttp 包。
+
+# 通过 “python3 -m pip install -r requirements” 安装依赖包
+aiphttp>=3.6.2
