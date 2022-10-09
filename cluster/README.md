@@ -16,5 +16,5 @@
 
 1. Welcome消息添加leader信息，这样新加入的节点能直接获取节点信息。
 
-2. leader 发下提意冲突后会返回给发起者一个 Conflict 消息。
+2. leader 接收 Propose 消息发现冲突后会返回给发起者一个 Conflict 消息。
 。
